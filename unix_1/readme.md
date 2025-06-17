@@ -6,7 +6,7 @@
      ```
      % cd SrjKshwh
      ```
-     
+
    - ls - list directories/files
      ```
      % ls
@@ -31,4 +31,3 @@
      % cat >> secondFile.txt  
      zsh: permission denied: secondFile.txt
      ```
-
