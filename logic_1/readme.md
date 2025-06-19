@@ -1,9 +1,28 @@
-# Logic 1 for First time python
-## Description
-   This is all about the flowchart of my project; like how the input and content is flowing
+# Logic 1 
+
+# Documentation for WordSearch project
+My project is about the interactive word search, in which we will ask 3 words from the user and rest of the 7 words from my predefined list. On the base of these total 10 words, the word search grid will be arranged using my Python program. 
+
+This grid will be shown on the left side of the GUI. On the right side of the GUI, there will be an input box, below that it will be a timer, and there will be the list of 10 words with a cross or tick. So, as soon as the user starts working on it, they will start the timer, and if they find a new word, they will check out that word from the list below.
+
+## Core Features Recap
+- User Inputs 3 Words
+
+- Add 7 Predefined Words with above enterd 3 words (Total = 10 words)
+
+- Generate Word Search Grid with all 10 words placed
+
+- GUI Layout:
+   -   Left side: Grid display
+   -   Right side:
+      - Input box (for user guesses)
+      - Timer (start when the user clicks “Start”)
+      - Word list with ✓ or ✗ next to each
+      - Scoring: Show time taken and number of correct words found at the end
+
 
 ## Usage
-   Gives you basic understaing of the project
+   Will get to learn about string manipulation, file handeling, user input, GUI design, and game logic, which makes it both fun and educational.
 
 
 ## ALGORITHM
