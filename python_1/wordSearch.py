@@ -1,35 +1,20 @@
 import random
-
-f= open("listTextFile.txt")
-
-
-
-#print(f.read(25))
-lenght=0
-for x in f:
-   lenght+=1
-   #print(x)
-print(lenght)
-
-rndNumList=[]
+i=1
 rndWordList=[]
-i=0
-for i in range(7):
-    r=random.randint(1,lenght)
-    rndNumList.append(r)
-    print(f.read(r))
-    print(f.readline(r))
-    getWord=f.readline(r)
-    rndWordList.append(getWord)
-
-print(rndNumList)
+with open("listTextFile.txt", "r") as file:
+    allText = file.read()
+    words = list(map(str, allText.split()))
+    for i in range(7):
+        randomWord=random.choice(words)
+        if randomWord in rndWordList:
+            randomWord=random.choice(words)
+        else:
+            rndWordList.append(randomWord)
 print(rndWordList)
 
 
-    
-    
+   
+   
 
 
 
-
-#print(f.readline(r))
